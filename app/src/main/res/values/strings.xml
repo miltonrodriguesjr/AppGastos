@@ -13,12 +13,16 @@
     <string name="label_reais">R$:</string>
     <string name="label_cadastrando_nova_conta">Cadastrando nova conta</string>
     <string name="label_add_receita">Adicionando receita</string>
+    <string name="label_add_despesa">Adicionando despesa</string>
     <string name="label_selecionando_conta">Selecione a conta:</string>
     <string name="label_nome">Nome:</string>
     <string name="label_valor_conta">Valor:</string>
     <string name="label_ultimos_lancamentos">Últimos lançamentos</string>
+    <string name="label_descricao">Descrição:</string>
 
 
     <string name="hint_nome">Digite o nome da conta</string>
+    <string name="hint_despesa">Digite o valor da despesa</string>
     <string name="hint_valor">Digite o valor $$ para a conta</string>
+    <string name="hint_descricao">Digite a descrição da despesa</string>
 </resources>
