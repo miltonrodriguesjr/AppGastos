@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="app_name">App Gastos</string>
+
+    <string name="btn_nova_conta">NOVA CONTA</string>
+    <string name="btn_nova_compra">NOVA DESPESA</string>
+    <string name="btn_adiciona_dinheiro">ADICIONAR RECEITA</string>
+    <string name="btn_gravar">GRAVAR</string>
+
+    <string name="label_disponivel_conta">DISP. NA CONTA</string>
+    <string name="label_gastos">GASTOS:</string>
+    <string name="label_ultimos_gastos">ÚLTIMOS GASTOS</string>
+    <string name="label_reais">R$:</string>
+    <string name="label_cadastrando_nova_conta">Cadastrando nova conta</string>
+    <string name="label_add_receita">Adicionando receita</string>
+    <string name="label_selecionando_conta">Selecione a conta:</string>
+    <string name="label_nome">Nome:</string>
+    <string name="label_valor_conta">Valor:</string>
+    <string name="label_ultimos_lancamentos">Últimos lançamentos</string>
+
+
+    <string name="hint_nome">Digite o nome da conta</string>
+    <string name="hint_valor">Digite o valor $$ para a conta</string>
+</resources>
