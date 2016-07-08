@@ -2,9 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/cifrao"
+    android:background="@drawable/gradient_linear"
     android:orientation="vertical">
-
 
     <Button
         android:id="@+id/buttonNovaConta"
@@ -19,7 +18,7 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:onClick="chamaNovaConta"
+        android:onClick="chamaNovaDespesa"
         android:text="@string/btn_nova_compra" />
 
     <Button

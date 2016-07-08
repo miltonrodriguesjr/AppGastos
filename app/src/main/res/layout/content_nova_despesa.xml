@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient_linear"
     android:orientation="vertical"
     android:paddingLeft="10dp"
     android:paddingRight="10dp">
@@ -26,6 +27,7 @@
 
     <Spinner
         android:id="@+id/spinnerConta"
+        style="@style/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
@@ -38,6 +40,7 @@
 
     <EditText
         android:id="@+id/editTextValorDespesa"
+        style="@style/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -54,6 +57,7 @@
 
     <EditText
         android:id="@+id/editTextDescricao"
+        style="@style/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -71,7 +75,7 @@
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="50dp"
         android:text="VOLTAR" />
 
 

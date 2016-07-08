@@ -56,7 +56,7 @@ public class AddReceitaActivity extends AppCompatActivity {
             itens = (ArrayList) contaDao.queryForAll();
 
             //Cria o adapter
-            adapterSpinner = new ArrayAdapter(getApplicationContext(), android.R.layout.simple_spinner_dropdown_item, itens);
+            adapterSpinner = new ArrayAdapter(getApplicationContext(), android.R.layout.simple_list_item_1, itens);
 
             //Define o adapter
             spinnerContas.setAdapter(adapterSpinner);
@@ -81,7 +81,7 @@ public class AddReceitaActivity extends AppCompatActivity {
             ultimosLancamentosItens = (ArrayList) ultimosDao.queryForAll();
 
             //Cria o adapter
-            listViewAdapter = new ArrayAdapter(getApplicationContext(), android.R.layout.simple_dropdown_item_1line, ultimosLancamentosItens);
+            listViewAdapter = new ArrayAdapter(getApplicationContext(), android.R.layout.simple_list_item_1, ultimosLancamentosItens);
 
             //Define o adapter
             listViewUltimosLancamentos.setAdapter(listViewAdapter);

@@ -37,6 +37,7 @@
 
     <EditText
         android:id="@+id/editTextValor"
+        style="@style/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -70,8 +71,8 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="VOLTAR"
-        android:onClick="voltar"/>
+        android:onClick="voltar"
+        android:text="VOLTAR" />
 
 
 </LinearLayout>
