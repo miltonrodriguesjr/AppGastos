@@ -6,6 +6,7 @@
     <string name="btn_nova_compra">NOVA DESPESA</string>
     <string name="btn_adiciona_dinheiro">ADICIONAR RECEITA</string>
     <string name="btn_gravar">GRAVAR</string>
+    <string name="btn_despesas">DESPESAS</string>
 
     <string name="label_disponivel_conta">DISP. NA CONTA</string>
     <string name="label_gastos">GASTOS:</string>

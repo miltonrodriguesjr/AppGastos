@@ -48,6 +48,6 @@ public class Conta{
 
     @Override
     public String toString() {
-        return nome + " - " + valor;
+        return nome + " | " + valor;
     }
 }

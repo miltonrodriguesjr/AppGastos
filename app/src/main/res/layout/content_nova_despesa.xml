@@ -27,7 +27,6 @@
 
     <Spinner
         android:id="@+id/spinnerConta"
-        style="@style/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
@@ -62,14 +61,23 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/hint_descricao"
-        android:inputType="numberDecimal" />
+        android:inputType="text" />
 
     <Button
         android:id="@+id/btnGravar"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:onClick="gravaDespesa"
         android:text="@string/btn_gravar" />
+
+    <Button
+        android:id="@+id/btnDespesas"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="verificaDespesas"
+        android:text="@string/btn_despesas" />
 
     <Button
         android:id="@+id/button5"
@@ -77,6 +85,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="VOLTAR" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/customListView">
+
+    </ListView>
 
 
 </LinearLayout>

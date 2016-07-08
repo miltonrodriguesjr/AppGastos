@@ -3,13 +3,11 @@ package milton.appgastos.model;
 import com.j256.ormlite.field.DatabaseField;
 import com.j256.ormlite.table.DatabaseTable;
 
-import java.io.Serializable;
-
 /**
  * Created by Aluno on 05/07/2016.
  */
 @DatabaseTable(tableName = "despesa")
-public class Despesa{
+public class Despesa {
 
 
     @DatabaseField(allowGeneratedIdInsert = true, generatedId = true)
@@ -19,7 +17,7 @@ public class Despesa{
     private double valor;
 
     @DatabaseField
-    private double descricao;
+    private String descricao;
 
     @DatabaseField
     private String data;
@@ -44,12 +42,20 @@ public class Despesa{
         this.valor = valor;
     }
 
-    public double getDescricao() {
+    public String getDescricao() {
         return descricao;
     }
 
-    public void setDescricao(double descricao) {
+    public void setDescricao(String descricao) {
         this.descricao = descricao;
+    }
+
+    public Conta getConta() {
+        return conta;
+    }
+
+    public void setConta(Conta conta) {
+        this.conta = conta;
     }
 
     public String getData() {
@@ -62,12 +68,6 @@ public class Despesa{
 
     @Override
     public String toString() {
-        return "Despesa{" +
-                "id=" + id +
-                ", valor=" + valor +
-                ", descricao=" + descricao +
-                ", data='" + data + '\'' +
-                ", conta=" + conta +
-                '}';
+        return valor + " - " + data + " - " + descricao;
     }
 }
